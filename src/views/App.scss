@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #7DE5ED, #5837D0 48%, #81C6E8);
+}
+
+.auth-form-container {
+  border-radius: 15px;
+  padding: 3rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px #f9fcff ;
+
+}
+
+.auth-form-container, .login-form{
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  color: #5837D0;
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border: 2px #5837D0 solid;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #7DE5ED ;
+
+}
+
+button {
+  margin-top: 10px;
+  border: none;
+  background-color: #5837D0;
+  padding: 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+// 7DE5ED
+// 81C6E8
+// 5DA7DB
+// 5837D0
